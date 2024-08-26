@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background: rgb(46, 15, 119);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+
+    & .container2 {
+        width: 50%;
+        padding: 15px;
+        border: 40px;
+    }
+
+    & .container2 h3 {
+        padding-left: 100px;
+    }
+
+    & .container3 {
+        width: 50%;
+        padding: 15px;
+        padding-left: 900px;
+    }
+
+    & .container3 a:hover {
+        padding: 1px;
+        border-radius: 18px;
+        background-color: aquamarine;
+
+    }
+
+    & .container2 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    & .container3 nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    & .container3 nav a:hover {
+        color: gray;
+        font-size: 18px;
+    }
+}
+
+.containerbody {
+    background-color: aquamarine;
+    width: 100%;
+    
+    & .divicone {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .divimg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+    &.divimg img {
+        width: 1px;
+        height: 1px;
+    }
+
+    &.divestrela img{
+        width: 1px;
+        height: 1px;
+    }
+
+    & .divstart {
+        color: white;
+        font-size: 110%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .divtexto1 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
